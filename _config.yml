@@ -26,6 +26,7 @@ jekyll-archives:
   enabled: all
   layout: "archive"
 plugins:
+  - github-pages
   - jekyll-menus
-  - jekyll-feed
+  - jekyll-tagging
   - jekyll-archives
