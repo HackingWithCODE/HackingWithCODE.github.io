@@ -11,6 +11,8 @@ Displays the site's navigation using the jekyll-menus plugin
     </h1>
     <nav class="main-nav">
       <ul class="navigation">
+        <!-- This block is designed to work with `jekyll-menus` which is currnetly reliable with the Github Pages gem -->
+        <!--
         {% for link in site.menus.navigation %}
         <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
           {% if link.children %}
@@ -44,7 +46,40 @@ Displays the site's navigation using the jekyll-menus plugin
           </a>
         </li>
         {% endfor %}
-      </ul>
+      </ul> -->
+
+      <!-- Manual menu insertion until jekyll-menus is reliable -->
+      <ul class="navigation">
+          <li class="{% if url == '/' %}current{% endif %}">
+            <a href="{{ '/' | relative_url }}" >
+              Home    
+            </a>
+          </li>
+          
+          <li class="{% if url == '/about/' %}current{% endif %}">
+            <a href="{{ '/about/' | relative_url }}" >
+              About
+            </a>
+          </li>
+          
+          <li class="{% if url == '/posts/' %}current{% endif %}">
+            <a href="{{ '/posts/' | relative_url }}" >
+              Posts    
+            </a>
+          </li>
+
+          <li class="{% if url == '/workshops/' %}current{% endif %}">
+            <a href="{{ '/workshops/' | relative_url }}"  >
+              Workshops
+            </a>
+          </li>
+
+          <li class="{% if url == '/contact/' %}current{% endif %}">
+            <a href="{{ '/contact/' | relative_url }}"  >
+              Contact
+            </a>
+          </li>
+        </ul>
     </nav>
   </div>
 </header>

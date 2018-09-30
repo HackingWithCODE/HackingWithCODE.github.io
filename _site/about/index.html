@@ -33,56 +33,43 @@
     </h1>
     <nav class="main-nav">
       <ul class="navigation">
+        <!-- This block is designed to work with `jekyll-menus` which is currnetly reliable with the Github Pages gem -->
+        <!--
         
-        <li class="">
+      </ul> -->
+
+      <!-- Manual menu insertion until jekyll-menus is reliable -->
+      <ul class="navigation">
+          <li class="">
+            <a href="/" >
+              Home    
+            </a>
+          </li>
           
-          <a href="http://localhost:4000/" >
-            Home
-            
-          </a>
-        </li>
-        
-        <li class="current">
+          <li class="current">
+            <a href="/about/" >
+              About
+            </a>
+          </li>
           
-          <a href="http://localhost:4000/about/" >
-            About
-            
-          </a>
-        </li>
-        
-        <li class="">
-          
-          <a href="http://localhost:4000/posts/" >
-            Posts
-            
-          </a>
-        </li>
-        
-        <li class="">
-          
-          <a href="http://localhost:4000/workshops/" >
-            Workshops
-            
-          </a>
-        </li>
-        
-        <li class="">
-          
-          <a href="http://localhost:4000/contact/" >
-            Contact
-            
-          </a>
-        </li>
-        
-        <li class="">
-          
-          <a href="http://localhost:4000/_contact/" >
-            
-            
-          </a>
-        </li>
-        
-      </ul>
+          <li class="">
+            <a href="/posts/" >
+              Posts    
+            </a>
+          </li>
+
+          <li class="">
+            <a href="/workshops/"  >
+              Workshops
+            </a>
+          </li>
+
+          <li class="">
+            <a href="/contact/"  >
+              Contact
+            </a>
+          </li>
+        </ul>
     </nav>
   </div>
 </header>
@@ -195,15 +182,11 @@
         <div class="footer-col pure-u-1 pure-u-md-1-4">
             <h3>About CO/DE</h3>
             <ul>
-                
-                <li><a href="http://localhost:4000/_workshops/">Workshops</a></li>
-                
-                <li><a href="http://localhost:4000/_workshops/"></a></li>
-                
-                <li><a href="http://localhost:4000/posts/">Posts</a></li>
-                
-                <li><a href="http://localhost:4000/about/">About</a></li>
-                
+                <!-- This block is for use with jekyll-menus, which has issues with the current Github Pages gem -->
+                <!--  -->
+                <li><a href="/about/" >About</a></li>
+                <li><a href="/posts/" >Posts</a></li>
+                <li><a href="/workshops/" >Workshops</a></li>
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">

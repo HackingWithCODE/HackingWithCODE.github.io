@@ -6,9 +6,13 @@
         <div class="footer-col pure-u-1 pure-u-md-1-4">
             <h3>About {{ site.short_title }}</h3>
             <ul>
-                {% for item in site.menus.footer %}
+                <!-- This block is for use with jekyll-menus, which has issues with the current Github Pages gem -->
+                <!-- {% for item in site.menus.footer %}
                 <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
-                {% endfor %}
+                {% endfor %} -->
+                <li><a href="{{ '/about/' | relative_url }}" >About</a></li>
+                <li><a href="{{ '/posts/' | relative_url }}" >Posts</a></li>
+                <li><a href="{{ '/workshops/' | relative_url }}" >Workshops</a></li>
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
@@ -18,7 +22,7 @@
                 <li><a href="{{ workshop.url | absolute_url }}">{{ workshop.title }}</a></li>
                 {% endfor %}
                 {% if site.workshop | size > 5 %}
-                <li><a href="{{ "/workshops/" | absolute_url }}">See all workshops</a></li>
+                <li><a href="{{ '/workshops/' | absolute_url }}">See all workshops</a></li>
                 {% endif %}
             </ul>
         </div>
