@@ -1,20 +1,17 @@
+---
 new_page_extension: md
 auto_deploy: true
-admin_path: ""
-? webhook_url
+admin_path: ''
+webhook_url: 
 sections:
-  - type: jekyll-pages
-    label: Pages
-    create: all
-  - type: jekyll-posts
-    label: Posts
-    create: all
-  - type: jekyll-posts
-    label: Workshops
-    create: documents
-    match: "**/*"
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Workshops
+  create: documents
 upload_dir: uploads
 public_path: "/uploads"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
