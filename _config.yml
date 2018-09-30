@@ -28,3 +28,5 @@ jekyll-archives:
 plugins:
   - github-pages
   - jekyll-menus
+  - jekyll-tagging
+  - jekyll-archives

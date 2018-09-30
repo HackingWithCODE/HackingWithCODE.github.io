@@ -5,7 +5,7 @@ banner_image: "/img/banners/columbus-map.jpg"
 heading: ""
 publish_date: 2018-10-01 00:00:00 +0000
 show_staff: true
-menu:
+menus:
   navigation:
     identifier: _contact
     weight: 4

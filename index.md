@@ -22,7 +22,7 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
-menu:
+menus:
   navigation:
     identifier: _index
     weight: 1

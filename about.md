@@ -8,7 +8,7 @@ layout: landing-page
 textline: An inclusive multidisciplinary team of experts strengthening Columbus Ohio's cybersecurity community through technical knowledge sharing and collaboration.
 publish_date: 2018-09-29 00:00:00 -0000
 show_staff: true
-menu:
+menus:
   footer:
     identifier: _about
     weight: 3
