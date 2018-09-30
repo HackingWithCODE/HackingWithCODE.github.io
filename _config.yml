@@ -22,8 +22,6 @@ collections:
   workshops:
     output: true
     permalink: "/workshops/:path/"
-# tag_page_layout: tag_page
-# tag_page_dir: tag
 jekyll-archives:
   enabled: all
   layout: "archive"
