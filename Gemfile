@@ -1,13 +1,13 @@
 # bundle exec jekyll serve
 
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem "jekyll"
 
-group :jekyll_plugins do  
-  gem 'github-pages'
-  gem "jekyll-menus"
+group :jekyll_plugins do
   gem "jekyll-feed"
+  gem "jekyll-menus"
+  gem "jekyll-tagging"
   gem "jekyll-archives"
 end
 
