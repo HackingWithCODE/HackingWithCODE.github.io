@@ -1,0 +1,28 @@
+---
+footer:
+  identifier: _about
+  url: "/_about/"
+  weight: 3
+  identifier: _posts
+  url: "/_posts/"
+  weight: 3
+  identifier: _workshops
+  url: "/_workshops/"
+  weight: 2
+
+navigation:
+  identifier: _index
+  url: "/_index/"
+  weight: 1
+  identifier: _about
+  url: "/_about/"
+  weight: 2
+  identifier: _posts
+  url: "/_posts/"
+  weight: 3
+  identifier: _workshops
+  url: "/_workshops/"
+  weight: 3
+  identifier: _contact
+  url: "/_contact/"
+  weight: 4
