@@ -1,0 +1,41 @@
+<footer class="site-footer">
+    <div class="container pure-g">
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <img src="{{ "/img/logo.png" | absolute_url }}" alt="" class="footer-logo">
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>About {{ site.short_title }}</h3>
+            <ul>
+                {% for item in site.menus.footer %}
+                <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>Latest Workshops</h3>
+            <ul>
+                {% for workshop in site.workshops limit:5 %}
+                <li><a href="{{ workshop.url | absolute_url }}">{{ workshop.title }}</a></li>
+                {% endfor %}
+                {% if site.workshop | size > 5 %}
+                <li><a href="{{ "/workshops/" | absolute_url }}">See all workshops</a></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="footer-col pure-u-1 pure-u-md-1-4">
+            <h3>Contact</h3>
+            {% include address.html %}
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            &copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved<br>
+            <!-- <a href="{{ "/admin" | absolute_url }}">Site Admin</a> -->
+        </p>
+    </div>
+</footer>
+<!-- Javascript -->
+<script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
+</body>
+
+</html>
