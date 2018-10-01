@@ -12,8 +12,8 @@ twitter: "cetfor"
 layout: "person"
 ---
 
-John joined CO/DE in October 2018.
+John joined CO/DE in October 2018 to help develop reverse engineering and vulnerability research workshops.
 
-He has worked as a civilian malware analyst with the United States Air Force, reverse engineering malcious software threats to US Air and Space assets, a security researcher with Battelle's Mission Focused Tools team, and a senior engineer with Columbus IoT security startup, Finite State.
+John has worked as a civilian malware analyst with the United States Air Force, reverse engineering malcious software threats to US Air and Space assets, a security researcher with Battelle's Mission Focused Tools team, and a senior engineer with Columbus IoT security startup, Finite State.
 
 His interests include reverse engineering, vulnerability research, embedded system exploitation, and automating vulnerability discovery.

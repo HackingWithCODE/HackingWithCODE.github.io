@@ -17,7 +17,7 @@ services:
     description:
       Network Analysis, Threat Hunting, Malware Reverse Engineering, Code Analysis.
     #icon: "/img/icons/shield.png"
-textline: Improving Columbus Ohio's Cybersecurity Talent through Collaboration
+textline: Improving Cybersecurity Talent through Collaboration
 hero_button:
   text: Learn more
   href: "/about"

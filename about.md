@@ -5,7 +5,7 @@ banner_image: "/img/banners/code-blur.jpg"
 heading: About CO/DE
 sub_heading: ""
 layout: landing-page
-textline: An inclusive multidisciplinary team of experts strengthening Columbus Ohio's cybersecurity community through technical knowledge sharing and collaboration.
+textline: CO/DE is Developing Free and Inclusive Cybersecurity Workshops
 publish_date: 2018-09-29 00:00:00 -0000
 show_staff: true
 menus:
@@ -17,8 +17,12 @@ menus:
     weight: 2
 ---
 
-The mission of CO/DE is to strengthen Columbus Ohio's cybersecurity community through technical knowledge sharing and collaboration. Our aim is to provide free and inclusive cybersecurity training through hands-on workshops.
+CO/DE's mission is to develop deep, technical, open source cybersecurity training material. Our aim is to provide free and inclusive cybersecurity training through hands-on workshops you can teach within your organization, club, university, or just go through solo. 
 
-If you've been to any of the cybersecurity events here in Columbus you've witnessed amazing talent first hand; from [614con](http://614con.org/) to [Columbus' OWASP chapter](https://www.owasp.org/index.php/Columbus) and The Ohio State University's [Cybersecurity Club](https://osucyber.club/). These groups exemplify the passion and dedication of the local community.
+Through CO/DE workshops you'll gain real-world experience with hand-ons lessons built by cybersecurity professionals specializing in a variety of disciplines. 
 
-Through CO/DE workshops you'll gain real-world experience from cybersecurity professionals and mentors in a variety of cybersecurity disciplines. 
+We've learned nearly everything we know from free online content and our peers. We marveled at Aleph1's Smashing the Stack for Fun and Profit, reverse engineered our way through Lena151 tutorials using Ollydbg, we worked tirelessly through Corelan's win32 exploitation guides, and spent countless sleepless weekends competing in CTFs. All of this amazing content (and much more) provided for free, without anything asked in return.
+
+CO/DE's one and only goal is to continue this tradition within the cybersecurity community and give back to the community.
+
+Follow us on Twitter [@hackingwithcode](https://twitter.com/hackingwithcode) for updates on the development of new workshops.

@@ -1,6 +1,6 @@
 ---
-title: Welcome to CO/DE!
-date: 2018-09-29 09:09:13 +0000
+title: Welcome to CO/DE
+date: 2018-10-01 00:00:00 +0000
 related_posts: []
 # related_posts:
 #   - _posts/2017-02-12-modern.md
@@ -11,15 +11,13 @@ banner_image: "/img/posts/keyboard.jpg"
 tags:
     - "announcements"
 layout: post
-sub_heading: Columbus Ohio's Pragmatic Cybersecurity Community.
+sub_heading: A journey of a thousand miles begins with a single step.
 ---
 
-CO/DE is the realization of a vision many years in the making. The people working behind the scenes to make CO/DE possible (include you) have worked tirelessly in persuit of excelllence in their specializations, mentoring others in their organizations, and learning from their peers.
+CO/DE is the realization of a vision many years in the making. Like you, we've worked tirelessly in persuit of excelllence in our specializations, mentoring others and learning from our peers. Over the years we've created and taught deep technical cybersecurity content to exclusive groups within our organizations and universities. While this experience was rewarding, the audience is far too limited. The enclusive nature of only sharing this material with coworkers and those fortunate enough to attend college seems like a disservice to the cybersecurity community. 
 
-But our peers exist beyond the walls and conference calls of our organizations - they exist all over our city and they're extremely talented. Containing that talent within the confines of individual organizations is a great disservice to us all. And while many of us are contractually obligated to protect IP and sensitive information, we are in no such obligation to keep our talents and passion for cybersecurity a secret.
+It seems strange to keep this knowledge locked within an exclusive group of people, when we ourselves learned nearly everything we know through the generocity of others. We marveled at Aleph1's Smashing the Stack for Fun and Profit, reverse engineered our way through Lena151 tutorials using Ollydbg, we worked tirelessly through Corelan's win32 exploitation guides, and spent countless sleepless weekends competing in CTFs. All of this amazing content (and much more) provided for free, without anything asked in return.
 
-The mission of CO/DE is to strengthen Columbus Ohio's cybersecurity community through technical knowledge sharing and collaboration.
+In the true spirit of the cybersecurity community, CO/DE is developing open source technical cybersecurity workshops for everyone. It doesn't matter if you're working for a Fortune 100 company, the lone security professional in a small business, or trying to break into the industry, CO/DE's material is free to use.
 
-This means working together to share our knowledge for the benefit of others. Whether you're a student interested cybersecurity, a seasoned professional, or looking to make the trasition from another field, CO/DE is for you. Cybersecurity is a large field with many specializations, so it's common to have people extremely well versed in offensive topics without truly understanding the defensive side and vice versa. CO/DE aims to fill those gaps and expose members to various aspects of our craft to strengthen the talent here in Columbus, Ohio.
-
-CO/DE is still in its infancy and highly dependent on local companies for workshop space. We're working with local cybersecurity talent and organizations to secure space, instructors, and mentors. If you would like to help us out, please contact us at contact@hackingwithcode.io. 
+Follow us on Twitter [@hackingwithcode](https://twitter.com/hackingwithcode) for updates on the development of new workshops.
