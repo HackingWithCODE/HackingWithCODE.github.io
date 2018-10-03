@@ -11,7 +11,7 @@ slug: ""
 ---
 
 ## Workshop Status
-Planning phase. When development begins, you can track our progress on [Github](https://github.com/HackingWithCODE).
+This workshop is currently in development. Checkout the status on [Github](https://github.com/HackingWithCODE/radical-radare2).
 
 ## Overview
 
