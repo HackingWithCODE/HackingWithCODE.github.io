@@ -12,8 +12,6 @@ layout: post
 sub_heading: Articles, tutorials, workshops, trainings, lectures, courses, oh my!
 ---
 
-# The Semantics of Teaching & Learning
-
 If you know a teacher, please hug them because they probably need it. With so many learning styles, individual quirks, learning disabilities, and experience levels, it’s nearly impossible to reach everyone in a class full of unique individuals.
 
 Part of the immense challenge of teaching also includes the various theories, formats, and styles a teacher can use to reach individuals. Like students, each teacher has a preferred method of teaching material and enforcing it. Some methods of teaching are passive, while others are hands-on. If you think of a typical college course, some professors will teach an entire semester without ever requiring student involvement (or attendance) while others consider participation a part of your grade.
