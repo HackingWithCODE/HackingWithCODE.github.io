@@ -28,7 +28,7 @@ Articles and blogs can involve a fair amount of personal bias, even verging into
 
 ## Peer Reviewed Journal Articles
 
-A few steps above common articles and blogs are peer-reviewed journal articles. These include articles found in Phrack and `PoC||GTFO`. These are deeply technical and have little room for personal opinion and commentary. They aim to express the facts and outcomes of specific a research initiative.
+A few steps above common articles and blogs are peer-reviewed journal articles. These include articles found in Phrack and `PoC||GTFO`. These are deeply technical and have little room for personal opinion and commentary. They aim to express the facts and outcomes of a specific research initiative.
 
 ## Tutorials
 
